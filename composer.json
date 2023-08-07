@@ -1,0 +1,19 @@
+{
+    "name": "thomy/bienesraices_inicio",
+    "description": "BIenes Raices POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "thomy2333",
+            "email": "thomyrb30@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}
