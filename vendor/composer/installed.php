@@ -3,7 +3,7 @@
         'name' => 'thomy/bienesraices_inicio',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'dd86abf15a27ff8b75385ce45101e7edb03f52c8',
+        'reference' => '1f35c13a3fa2c1c3f9bdc1bd2b2aed730a71a91f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'guzzlehttp/psr7' => array(
-            'pretty_version' => '2.5.0',
-            'version' => '2.5.0.0',
-            'reference' => 'b635f279edd83fc275f822a1188157ffea568ff6',
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
+            'reference' => '8bd7c33a0734ae1c5d074360512beb716bef3f77',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
@@ -70,7 +70,7 @@
         'thomy/bienesraices_inicio' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'dd86abf15a27ff8b75385ce45101e7edb03f52c8',
+            'reference' => '1f35c13a3fa2c1c3f9bdc1bd2b2aed730a71a91f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
