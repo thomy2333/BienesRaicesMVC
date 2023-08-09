@@ -27,4 +27,17 @@ class Router {
             echo "Pagina no Encontrada";
         }
     }
+
+    //muestra una vista
+    public function render($view, $datos = []){
+
+        foreach($datos as $key => $value){
+            $$key = $value;
+        }
+        ob_start(); //Almacenamiento en memoria durante un momento
+
+        include __DIR__ . "/views/$view.php";
+        $contenido = ob_get_clean();//limpia el buffer
+        include __DIR__ . "/views/layout.php";
+    }
 }
